@@ -1,0 +1,20 @@
+main{
+    width: 100%;
+    max-width: 500px;
+    flex-grow: 1;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    & ul{
+        margin: 10px 0;
+        width: 90%;
+        max-height: 82vh;
+        display: flex;
+        flex-flow: row wrap;
+        gap: 5px;
+        overflow: scroll;
+        & li{
+            list-style: none;
+        }
+    }
+}
