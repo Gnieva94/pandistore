@@ -11,9 +11,9 @@ export default function Home() {
   return (
     <main>
       <h3>Listado de productos</h3>
-      <ul>
+      <ul className='toffle'>
         {products.map((product, index) => (
-          <Item {...product} />
+          <Item key={index} {...product} />
         ))}
       </ul>
     </main>
