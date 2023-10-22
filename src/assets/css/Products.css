@@ -1,0 +1,11 @@
+main{
+    width: 100%;
+    max-width: 500px;
+    flex-grow: 1;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    & div{
+        display: flex;
+    }
+}

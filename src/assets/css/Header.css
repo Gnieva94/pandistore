@@ -5,4 +5,11 @@ header{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    & a{
+        text-decoration: none;
+            font-weight: bold;
+            text-align: center;
+            color: black;
+            cursor: pointer;
+    }
 }
