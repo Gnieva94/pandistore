@@ -12,7 +12,7 @@ function App() {
       <UseContext>
         <Layout>
           <Routes>
-            <Route path="/" element={<Home />} />
+            <Route index path="/" element={<Home />} />
             <Route path="products" element={<Products/>} />
             <Route path="cart" element={<Cart/>} />
           </Routes>
